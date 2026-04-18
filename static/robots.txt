@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: /sitemap.xml
+
+# Allow crawling of static assets
+User-agent: Googlebot
+Allow: /static/
+Allow: /
+
+# Prevent crawling of certain paths
+Disallow: /admin/
+Disallow: /__pycache__/
+Disallow: /.git/

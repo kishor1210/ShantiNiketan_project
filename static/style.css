@@ -1,0 +1,50 @@
+/* Additional custom styles for Shanti Niketan */
+
+:root {
+  --saffron: #D4631A;
+  --forest: #2A4A35;
+  --cream: #FAF6EE;
+}
+
+/* Loading animation */
+.loader {
+  border: 4px solid var(--cream);
+  border-top: 4px solid var(--saffron);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Print styles */
+@media print {
+  nav, footer {
+    display: none;
+  }
+  body {
+    background: white;
+  }
+}
+
+/* Utility classes */
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.p-1 { padding: 0.5rem; }
+.p-2 { padding: 1rem; }
+.p-3 { padding: 1.5rem; }

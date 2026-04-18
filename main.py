@@ -29,9 +29,9 @@ school_data = {
     "email": "info@shantiniketan.edu.in",
     "staff_lookup": staff_lookup,
     "announcements": [
-        {"title": "Annual Day Celebration", "date": "May 10, 2026", "desc": "Join us for a grand celebration of talent and achievement."},
-        {"title": "Science & Innovation Fair", "date": "April 28, 2026", "desc": "Students showcase inventions and research projects."},
-        {"title": "Summer Camp Registrations Open", "date": "April 20, 2026", "desc": "Enroll now for our enriching summer programs."},
+        {"title": "Admissions Open for 2028", "date": "April 15, 2026", "desc": "Registration now open for Pre-Primary through Senior Secondary. Limited seats available."},
+        {"title": "Campus Orientation Day", "date": "May 5, 2026", "desc": "Visit our state-of-the-art facilities and meet our dedicated faculty members."},
+        {"title": "Parent Information Session", "date": "May 12, 2026", "desc": "Learn about our vision, curriculum, and co-curricular programs."},
     ],
     "programs": [
         {"name": "Pre-Primary", "grades": "Nursery – KG", "icon": "🌱"},
@@ -42,10 +42,10 @@ school_data = {
         {"name": "Sports & Arts", "grades": "All Grades", "icon": "🎨"},
     ],
     "achievements": [
-        {"title": "State Science Olympiad", "result": "1st Place – 2025"},
-        {"title": "CBSE Board Results", "result": "100% Pass Rate – 2025"},
-        {"title": "Inter-School Debate", "result": "Champions – 2025"},
-        {"title": "National Sports Meet", "result": "Gold Medal – Athletics"},
+        {"title": "Holistic Development", "result": "Balancing academics with character building"},
+        {"title": "Modern Pedagogy", "result": "Blending Indian heritage with global excellence"},
+        {"title": "Inclusive Community", "result": "Celebrating diversity and nurturing every child"},
+        {"title": "Future-Ready Learners", "result": "Preparing minds for tomorrow's challenges"},
     ]
 }
 

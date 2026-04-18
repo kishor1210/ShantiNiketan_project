@@ -271,8 +271,8 @@
     .prog-card .grades { font-size: .8rem; color: var(--saffron); font-weight: 600; letter-spacing: .05em; text-transform: uppercase; margin-top: .4rem; }
     .prog-card p { font-size: .875rem; color: var(--ink-lt); margin-top: .8rem; line-height: 1.65; }
 
-    /* ── ACHIEVEMENTS ── */
-    #achievements {
+    /* ── VISION ── */
+    #vision {
       background: var(--forest);
       color: var(--white);
     }
@@ -429,7 +429,7 @@
     <ul class="nav-links" id="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#programs">Programs</a></li>
-      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#vision">Vision</a></li>
       <li><a href="#announcements">News</a></li>
       <li><a href="#contact" class="nav-cta">Admissions</a></li>
     </ul>
@@ -439,7 +439,7 @@
   <section class="hero" id="home">
     <div class="hero-bg"></div>
     <div class="hero-content">
-      <div class="hero-tag">India's PREMIER SCHOOL SINCE {{ founded }}</div>
+      <div class="hero-tag">Opening {{ founded }}</div>
       <h1>
         Where Every Child <em>Blossoms</em><br/>
         into their <strong>Greatness</strong>
@@ -453,16 +453,16 @@
       </div>
       <div class="hero-stats">
         <div class="stat-item">
-          <span class="stat-num" data-count="{{ students }}">0</span>
-          <span class="stat-label">Students</span>
+          <span class="stat-num">Admissions</span>
+          <span class="stat-label">Open Now</span>
         </div>
         <div class="stat-item">
-          <span class="stat-num" data-count="{{ teachers }}">0</span>
-          <span class="stat-label">Teachers</span>
+          <span class="stat-num">Limited</span>
+          <span class="stat-label">Premium Seats</span>
         </div>
         <div class="stat-item">
-          <span class="stat-num" data-count="{{ founded - 2000 }}">0</span>
-          <span class="stat-label">Years of Excellence</span>
+          <span class="stat-num">{{ founded }}</span>
+          <span class="stat-label">Launch Year</span>
         </div>
       </div>
     </div>
@@ -549,20 +549,20 @@
     </div>
   </section>
 
-  <!-- ACHIEVEMENTS -->
-  <section id="achievements">
+  <!-- VISION -->
+  <section id="vision">
     <div class="container">
       <div class="achievements-inner">
         <div class="reveal">
-          <span class="section-label">Our Pride</span>
-          <h2 class="section-title">Achievements That <strong>Inspire</strong></h2>
-          <p class="section-body">Our students and faculty have consistently earned recognition at state, national, and international levels — a testament to the {{ name }} spirit.</p>
+          <span class="section-label">Our Vision</span>
+          <h2 class="section-title">What We <strong>Promise</strong></h2>
+          <p class="section-body">At {{ name }}, we are committed to creating an environment where every child can thrive. Our vision is to nurture compassionate learners, critical thinkers, and responsible global citizens.</p>
           <a href="#contact" class="btn btn-primary" style="margin-top:2rem; display:inline-flex;">Join Our Community &rarr;</a>
         </div>
         <div class="achievement-list reveal">
           {% for ach in achievements %}
           <div class="ach-item">
-            <div class="ach-medal">🏆</div>
+            <div class="ach-medal">✦</div>
             <div>
               <h4>{{ ach.title }}</h4>
               <p>{{ ach.result }}</p>
